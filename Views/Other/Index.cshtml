@@ -1,0 +1,14 @@
+﻿@model Mod4Demo.Models.Person
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center bg-white">
+    <h3>Welcome to the Other Controller</h3>
+    <p>Person data: @Model.Id , @Model.Name</p>
+    <p>Server time: @ViewBag.ServerTime</p>
+    <p>@ViewData["data"], @ViewData["result"]</p>
+
+</div>
+
